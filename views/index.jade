@@ -1,0 +1,54 @@
+extends layout
+
+block content
+  .site-wrapper
+    .site-wrapper-inner
+      .cover-container
+        .inner.cover
+          h1 Find events near 
+          span(style='color: #8cc63f; font-size: 6vw') you!
+          p.lead#description
+            | Select a coordinate below to view the closest events and cheapest tickets near you.
+          .btn-group.dropup
+            button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', name='starthour')#x
+              | X 
+              span.caret
+            ul.dropdown-menu#xlist
+              li
+                a(href='#') 0
+                a(href='#') 1
+                a(href='#') 2
+                a(href='#') 3
+                a(href='#') 4
+                a(href='#') 5
+                a(href='#') 6
+                a(href='#') 7
+                a(href='#') 8
+                a(href='#') 9
+                a(href='#') 10
+          .btn-group.dropup
+            button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown', name='starthour')#y
+              | Y
+              span.caret
+            ul.dropdown-menu#ylist
+              li
+                a(href='#') 0
+                a(href='#') 1
+                a(href='#') 2
+                a(href='#') 3
+                a(href='#') 4
+                a(href='#') 5
+                a(href='#') 6
+                a(href='#') 7
+                a(href='#') 8
+                a(href='#') 9
+                a(href='#') 10
+          p.lead
+            a.btn.btn-lg#find Find!
+          ul#result
+
+
+
+
+      
+      
